@@ -1,2 +1,4 @@
-# muskox
-Epidemiological models of bacterial diseases of muskoxen
+# Bacterial diseases of muskoxen in the Canadian Arctic
+This repository contains code to develop and analyze a compartmental epidemiological model representing a system with two host species and multiple environmental sources of bacteria (feces, carcasses). The model is parameterized for Erysipelothrix rhusiopathiae in muskoxen and Arctic foxes in the Canadian Arctic. The model accompanies the manuscript entitled "Models reveal the importance of alternative hosts and environmental transmission for emergence of bacterial disease in muskoxen in the Arctic".
+
+There is a single Mathematica notebook that contains the equations for the model, and the code to derive the R0 for the system and estimate it given parameter combinations and scenarios. The notebook also produces the figures included in the manuscript. 
